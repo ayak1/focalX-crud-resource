@@ -23,7 +23,7 @@
     <input type="number" name="age" required value={{$student->age}}>
    
     <label for="address">address</label>
-    <input type="text" name="address" required value={{$student->address}}>
+    <input type="text" name="gitaddress" required value={{$student->address}}>
    
     <button type="submit">submit</button>
 </div>
