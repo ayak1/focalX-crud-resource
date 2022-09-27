@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2A0944;
+    color: #FEC260;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title p{
+    letter-spacing: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.title div a{
+    margin: 0px 20px;
+}
+.title div a button{
+    background-color: #FEC260;
+    padding: 5px;
+    color: #2A0944;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.title div .create button{
+    background-color: #58c3b1;
+    color: #A10035;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2A0944;
+    color: #FEC260;
+}
+.footer h1{
+    letter-spacing: 20px;
+}

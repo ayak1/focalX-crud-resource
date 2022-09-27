@@ -1,0 +1,17 @@
+.card{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #3FA796;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+}
+h1{
+    width: 100%;
+    color: #A10035;
+    border-bottom: 1px solid #3FA796;
+}
